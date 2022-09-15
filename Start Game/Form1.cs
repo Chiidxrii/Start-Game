@@ -53,20 +53,32 @@ namespace Start_Game
             blopPlayer.Play();
             Thread.Sleep(800);
 
+            blopPlayer.Play();
+            Refresh();
+
             countdownLabel3.Visible = true;
             Refresh();
             Thread.Sleep(1000);
             countdownLabel3.Visible = false;
+
+            blopPlayer.Play();
+            Refresh();
 
             countdownLabel2.Visible = true;
             Refresh();
             Thread.Sleep(1000);
             countdownLabel2.Visible = false;
 
+            blopPlayer.Play();
+            Refresh();
+
             countdownLabel1.Visible = true;
             Refresh();
             Thread.Sleep(1000);
             countdownLabel1.Visible = false;
+
+            blopPlayer.Play();
+            Refresh();
 
             goLabel.Visible = true;
             Refresh();
